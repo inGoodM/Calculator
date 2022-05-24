@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var resultLable: UILabel!
+    @IBOutlet weak var realTimeTipping: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+    }
+    
+    
 }
 
