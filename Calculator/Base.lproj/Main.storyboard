@@ -16,50 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backfone" translatesAutoresizingMaskIntoConstraints="NO" id="JjO-Hn-M69">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zf7-mk-DaX">
-                                <rect key="frame" x="10" y="54" width="394" height="110"/>
+                                <rect key="frame" x="10" y="54" width="394" height="100"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9A-IR-ftz">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9A-IR-ftz">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="NYj-9Z-W6C"/>
-                                            <constraint firstAttribute="height" constant="50" id="QMe-A3-Lmh"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="50"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hW-2E-V34">
-                                        <rect key="frame" x="0.0" y="60" width="394" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Sve-L1-Tv8"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="hLF-F0-iiA"/>
+                                            <constraint firstAttribute="height" constant="100" id="QMe-A3-Lmh" userLabel="height = 100"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="PingFangHK-Thin" family="PingFang HK" pointSize="50"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="highlightedColor" systemColor="labelColor"/>
-                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="CgP-Ff-WC0" userLabel="MainStack">
-                                <rect key="frame" x="10" y="174" width="394" height="678"/>
+                                <rect key="frame" x="10" y="164" width="394" height="688"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lD0-QG-zrX">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="125.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSx-2u-4kU">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="AC" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -68,18 +54,18 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CT2-cP-g5k"/>
+                                                    <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ko-Cd-J9v"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1W8-dr-Mz2">
-                                                <rect key="frame" x="102.5" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="+/-">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="+/-" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -88,18 +74,18 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ftk-xo-1ei"/>
+                                                    <action selector="plusMinusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mml-Px-kfv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7Q-MD-FR1">
-                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="%" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -107,19 +93,16 @@
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OQu-tM-ZW3"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPc-nN-TZk">
-                                                <rect key="frame" x="307" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="307" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="÷" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -128,23 +111,23 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9XQ-lO-r6o"/>
+                                                    <action selector="operatorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nSQ-Na-lON"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3WL-dm-TTe">
-                                        <rect key="frame" x="0.0" y="138.5" width="394" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="140.5" width="394" height="125.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuC-Gp-K8V">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="7" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -157,14 +140,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lh5-U5-lP2">
-                                                <rect key="frame" x="102.5" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="8" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -177,14 +160,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47v-UI-3eE">
-                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="9" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -197,14 +180,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGf-7N-uqg">
-                                                <rect key="frame" x="307" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="307" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="×">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="×" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -213,23 +196,23 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ex2-lw-VeP"/>
+                                                    <action selector="operatorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1JT-s1-c9T"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="O50-Gk-inR">
-                                        <rect key="frame" x="0.0" y="277" width="394" height="124"/>
+                                        <rect key="frame" x="0.0" y="281" width="394" height="126"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3e-Vw-m5d">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="124"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="126"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="4" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -242,14 +225,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnh-TD-4g4">
-                                                <rect key="frame" x="102.5" y="0.0" width="87" height="124"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="87" height="126"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="5" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -262,14 +245,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kK-Qa-Eow">
-                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="124"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="126"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="6" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -282,14 +265,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1h-Fo-GU8">
-                                                <rect key="frame" x="307" y="0.0" width="87" height="124"/>
+                                                <rect key="frame" x="307" y="0.0" width="87" height="126"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="-" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -298,23 +281,23 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnd-W2-Xib"/>
+                                                    <action selector="operatorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOi-ff-h4r"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Wgx-7j-EMM">
-                                        <rect key="frame" x="0.0" y="416" width="394" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="422" width="394" height="125.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-lR-Nb1">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="1" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -327,14 +310,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPj-xx-b4T">
-                                                <rect key="frame" x="102.5" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="2" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -347,14 +330,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFo-k0-BbD">
-                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="3" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -367,14 +350,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaC-XD-NmK">
-                                                <rect key="frame" x="307" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="307" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="+" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -383,23 +366,23 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yqD-SY-6XP"/>
+                                                    <action selector="operatorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jd1-dP-2Om"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="dTJ-sR-t1p">
-                                        <rect key="frame" x="0.0" y="554.5" width="394" height="123.5"/>
+                                        <rect key="frame" x="0.0" y="562.5" width="394" height="125.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-0F-4QV">
-                                                <rect key="frame" x="0.0" y="0.0" width="189.5" height="123.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="189.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="0" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -412,14 +395,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NX-cZ-Khs">
-                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="123.5"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="87.5" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="." cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -428,18 +411,18 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yDe-dL-Hdv"/>
+                                                    <action selector="dotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edU-Up-zSd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVL-Vp-MTJ">
-                                                <rect key="frame" x="307" y="0.0" width="87" height="123.5"/>
+                                                <rect key="frame" x="307" y="0.0" width="87" height="125.5"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="40"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <buttonConfiguration key="configuration" style="plain" title="=" cornerStyle="capsule">
-                                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                                    <backgroundConfiguration key="background" strokeWidth="1" strokeOutset="0.0">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" systemColor="labelColor"/>
                                                     </backgroundConfiguration>
@@ -448,7 +431,7 @@
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEt-Fb-Ji1"/>
+                                                    <action selector="equalButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFb-dT-kXF"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -468,22 +451,17 @@
                             <accessibilityTraits key="traits" image="YES"/>
                         </accessibility>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="JjO-Hn-M69" secondAttribute="trailing" id="79I-Gr-2zH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CgP-Ff-WC0" secondAttribute="bottom" constant="10" id="VVU-B1-puc"/>
                             <constraint firstItem="zf7-mk-DaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="eda-78-0xz"/>
-                            <constraint firstAttribute="bottom" secondItem="JjO-Hn-M69" secondAttribute="bottom" id="gFs-eA-bDO"/>
                             <constraint firstItem="zf7-mk-DaX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gux-lP-HI1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zf7-mk-DaX" secondAttribute="trailing" constant="10" id="k1K-WG-hQ5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CgP-Ff-WC0" secondAttribute="trailing" constant="10" id="kPc-eq-WRs"/>
                             <constraint firstItem="CgP-Ff-WC0" firstAttribute="top" secondItem="zf7-mk-DaX" secondAttribute="bottom" constant="10" id="mvS-a5-lgf"/>
-                            <constraint firstItem="JjO-Hn-M69" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pXQ-zU-19F"/>
                             <constraint firstItem="CgP-Ff-WC0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="vda-HJ-heq"/>
-                            <constraint firstItem="JjO-Hn-M69" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vz4-IE-Xar"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="realTimeTipping" destination="1hW-2E-V34" id="t13-ua-A0P"/>
-                        <outlet property="resultLable" destination="u9A-IR-ftz" id="HbP-sC-zDe"/>
+                        <outlet property="displayResult" destination="u9A-IR-ftz" id="HbP-sC-zDe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -492,7 +470,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backfone" width="1080" height="2160"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
